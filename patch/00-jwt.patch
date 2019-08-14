@@ -1,0 +1,16 @@
+Index: config/app.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- config/app.php	(date 1565749918000)
++++ config/app.php	(date 1565749939000)
+@@ -162,6 +162,8 @@
+         Illuminate\Validation\ValidationServiceProvider::class,
+         Illuminate\View\ViewServiceProvider::class,
+
++        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
++
+         /*
+          * Package Service Providers...
+          */
